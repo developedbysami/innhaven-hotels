@@ -96,12 +96,12 @@ nav{
     z-index: -1;
 }
 
-nav__links a {
+.nav__links a {
     white-space: nowrap;
     color: var(--white);
     font-weight: 600;
 }
 
-nav__links.open{
+.nav__links.open{
     transform: translateY(100%);
 }
