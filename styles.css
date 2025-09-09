@@ -84,7 +84,7 @@ header{
     min-height: 125vh;
     background: linear-gradient(
         to bottom, 
-        rgba(0, 0, 0, 0.25),
+        rgba(0, 0, 0, 0.6),
         rgba(255, 255, 255, 0)
     ),
     url("assets/header1.jpg");
@@ -148,6 +148,48 @@ nav{
 }
 
 
+/* __HOME__  */
+.header__container{
+    display: grid;
+    gap: 2rem;
+}
+
+.header__container h1{
+    font-size: 4.5rem;
+    font-weight: 500;
+    color: var(--white);
+    text-align: center;
+}
+
+.header__content .section__description{
+    color: var(--white);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.header__btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.header__btns .btn{
+    padding: calc(0.75rem - 4px) calc(1.5rem - 4px);
+}
+
+.header__btns .btn:nth-child(1){
+    background-color: var(--white);
+    color: var(--text-dark);
+}
+
+.header__btns .btn:nth-child(2){
+    background-color: transparent;
+}
+.header__btns .btn:nth-child(2):hover{
+    background-color: var(--white);
+    color: var(--text-dark);
+}
 
 /* __MEDIA QUERIES___  */
 
@@ -190,4 +232,30 @@ nav{
     .nav__links a:hover{
         color: var(--primary-color);
     }
+
+    /* ___HOME___  */
+    .header__container{
+        grid-template-columns: 4fr 2fr;
+    }
+    .header__container h1{
+        font-size: 6rem;
+        line-height: 6.5rem;
+        text-align: left;
+    }
+
+    .header__content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .header__container .section__description{
+        text-align: left;
+    }
+
+    .header__btns{
+        justify-content: flex-start;
+    }
 }
+
