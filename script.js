@@ -35,3 +35,7 @@ ScrollReveal().reveal(".header__btns",{
     ...scrollRevealOptions,
     delay: 1000
 })
+ScrollReveal().reveal(".hotel__card",{
+    ...scrollRevealOptions,
+    interval: 500,
+})
