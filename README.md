@@ -4,8 +4,7 @@ Innhaven Luxury Hotels – Landing Page
 The page highlights premium hotel stays, customer ratings, and elegant design to showcase Innhaven’s luxury experience.
 
 🌍 Live Preview
-
-🔗 Innhaven Luxury Hotels – Website Preview
+https://developedbysami.github.io/innhaven-hotels
 
 ✨ Features
 
