@@ -86,7 +86,7 @@ header{
         rgba(0, 0, 0, 0.6),
         rgba(255, 255, 255, 0)
       ),
-        url("assets/header1.jpg");
+        url("assets/header.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
