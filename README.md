@@ -3,6 +3,10 @@ Innhaven Luxury Hotels – Landing Page
 🌐 A modern and responsive landing page for Innhaven Luxury Hotels, built using HTML, CSS, and JavaScript.
 The page highlights premium hotel stays, customer ratings, and elegant design to showcase Innhaven’s luxury experience.
 
+🌍 Live Preview
+
+🔗 Innhaven Luxury Hotels – Website Preview
+
 ✨ Features
 
 🏨 Elegant landing page layout for luxury hotel rentals
