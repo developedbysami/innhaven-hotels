@@ -39,3 +39,7 @@ ScrollReveal().reveal(".hotel__card",{
     ...scrollRevealOptions,
     interval: 500,
 })
+ScrollReveal().reveal(".steps__card",{
+    ...scrollRevealOptions,
+    interval: 500,
+})
