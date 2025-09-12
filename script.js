@@ -43,3 +43,12 @@ ScrollReveal().reveal(".steps__card",{
     ...scrollRevealOptions,
     interval: 500,
 })
+
+// ___INSPIRATION__ 
+const inspiration = document.querySelector('.inspiration__wrapper')
+const inspirationImages = Array.from(inspiration.children)
+inspirationImages.map((item)=>{
+    const duplicatedNode = item.cloneNode(true)
+    duplicatedNode.setAttribute('aria-hidden',true)
+    inspiration.appendChild(duplicatedNode)
+})
