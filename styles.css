@@ -84,7 +84,7 @@ ul {
 header {
   background: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.5),
     rgba(255, 255, 255, 0)
   ),
     url("assets/header.jpg");
