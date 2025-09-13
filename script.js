@@ -52,3 +52,8 @@ inspirationImages.map((item)=>{
     duplicatedNode.setAttribute('aria-hidden',true)
     inspiration.appendChild(duplicatedNode)
 })
+
+ScrollReveal().reveal(".property__card",{
+    ...scrollRevealOptions,
+    interval: 500,
+})
