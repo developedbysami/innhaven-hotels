@@ -7,7 +7,7 @@
   --extra-light: #f0efef;
   --white: #ffffff;
   --max-width: 1200px;
-  --color : red;
+  --color: red;
 }
 
 * {
@@ -361,20 +361,20 @@ nav {
   color: var(--text-dark);
 }
 
-.property__card__content p{
+.property__card__content p {
   margin-bottom: 1rem;
-    font-size: 1rem;
-    font-weight: 500;
-    color: var(--text-light);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-light);
 }
 
-.property__card__content h5{
+.property__card__content h5 {
   font-size: 1rem;
   font-weight: 600;
   color: var(--text-dark);
 }
 
-.property__card__content h5 span{
+.property__card__content h5 span {
   display: inline-block;
   margin-right: 0.5rem;
   padding: 3px 6px;
@@ -452,6 +452,41 @@ nav {
   background-color: var(--white);
 }
 
+/* ____FOOTER___  */
+
+footer {
+  background-color: var(--extra-light);
+}
+
+.footer__container {
+  display: grid;
+  gap: 4rem 1rem;
+}
+
+.footer__logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.footer__links {
+  display: grid;
+  gap: 1rem;
+}
+
+.footer__links a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.footer__bar {
+  padding: 1rem;
+  font-size: 1rem;
+  color: var(--text-light);
+  text-align: center;
+}
+
 @media (width > 540px) {
   .hotel__container .section__header {
     text-align: left;
@@ -465,6 +500,9 @@ nav {
     grid-template-columns: repeat(2, 1fr);
   }
   .property__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -557,6 +595,9 @@ nav {
 
   .discount__btns {
     justify-content: flex-end;
+  }
+  .footer__container {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
